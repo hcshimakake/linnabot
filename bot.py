@@ -32,18 +32,6 @@ class CallbackResource(object):
     }
 
     # docomo
-    user = {
- "utt":"こんにちは",
- "context":"10001",
- "nickname":"HEARTCATCH",
- "nickname_y":"ハートキャッチ",
- "bloodtype":"B",
- "birthdateY”:"2014",
- "birthdateM”:"7",
- "birthdateD”:"1",
- "place":"東京",
- "mode":"dialog",
-}
 
     docomo_client = doco.client.Client(apikey=DOCOMO_API_KEY, user=user)
 
