@@ -32,7 +32,7 @@ class CallbackResource(object):
     }
 
     # docomo
-    user = {'t': 30}
+    user = {'t': }
     docomo_client = doco.client.Client(apikey=DOCOMO_API_KEY, user=user)
 
     def on_post(self, req, resp):
